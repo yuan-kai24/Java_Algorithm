@@ -19,7 +19,8 @@ public class Main {
         myList.update(9,"我在修改");
         System.out.println("mylist有：" + myList.getLength() + "个数据");
         System.out.println("mylist的第二个数据为：" + myList.get(9));
-        myList.del(null);
+        myList.del("333");
+        System.out.println("mylist有：" + myList.getLength() + "个数据");
         System.out.println(myList);
 
     }

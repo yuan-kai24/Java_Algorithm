@@ -15,6 +15,7 @@ public class MyList<T> {
 
     /**
      * 增
+     * 有点递归的味道
      **/
     public boolean add(T data) {
         if (this.next_data == null) {
@@ -34,6 +35,7 @@ public class MyList<T> {
         boolean result = false;
         MyList<T> use_data = this;
         for (int i = 0; i < length; i++) {
+            // 判断是否删除下一个元素
             if ((i+1) == limit) {
                 use_data.setNext_data(use_data.getNext_data().getNext_data());
                 this.length--;
@@ -52,6 +54,7 @@ public class MyList<T> {
         boolean result = false;
         MyList<T> use_data = this;
         for (int i = 0; i < length; i++) {
+            // 一样的道理，只是变成了比较
             if ((use_data.getNext_data().getNow_data().equals(data))) {
                 use_data.setNext_data(use_data.getNext_data().getNext_data());
                 this.length--;
