@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f492de-3177-4942-86c4-dc6bdf27de2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/yk/algorithm/C201903/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/yk/algorithm/C201903/Three.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/yk/algorithm/C201903/Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/yk/algorithm/C201903/Two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/yk/algorithm/C201903/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/yk/algorithm/C201903/input" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,25 +32,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="input" value="1" />
-          <entry key="java" value="11" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="input" value="45" />
-          <entry key="java" value="4815" />
+          <entry key="java" value="4848" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4815" />
+          <entry key="JAVA" value="4848" />
           <entry key="PLAIN_TEXT" value="47" />
         </counts>
       </usages-collector>
@@ -57,33 +58,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/yk/algorithm/C201903/Two.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="160" column="40" selection-start-line="160" selection-start-column="40" selection-end-line="160" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5247#5255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/yk/algorithm/C201903/input">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="22">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/yk/algorithm/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/yk/algorithm/C201903/Three.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="88">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -108,8 +96,9 @@
         <option value="$PROJECT_DIR$/src/org/yk/algorithm/C201812/Two.java" />
         <option value="$PROJECT_DIR$/src/org/yk/algorithm/Main.java" />
         <option value="$PROJECT_DIR$/src/org/yk/datastructure/MyList.java" />
-        <option value="$PROJECT_DIR$/src/org/yk/algorithm/C201903/input" />
         <option value="$PROJECT_DIR$/src/org/yk/algorithm/C201903/Two.java" />
+        <option value="$PROJECT_DIR$/src/org/yk/algorithm/C201903/input" />
+        <option value="$PROJECT_DIR$/src/org/yk/algorithm/C201903/Three.java" />
       </list>
     </option>
   </component>
@@ -137,10 +126,10 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1448" />
-    <option name="y" value="71" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -256,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564764669977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564840916535" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -344,7 +333,7 @@
       <workItem from="1554128002615" duration="1126000" />
       <workItem from="1558789779644" duration="3993000" />
       <workItem from="1563798738169" duration="5665000" />
-      <workItem from="1564568752603" duration="10007000" />
+      <workItem from="1564568752603" duration="10832000" />
     </task>
     <task id="LOCAL-00001" summary="yi">
       <created>1558793005936</created>
@@ -367,17 +356,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564726326521</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="yi">
+      <created>1564764684282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564764684282</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20791000" />
+    <option name="totallyTimeSpent" value="21616000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1448" y="71" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990099" visible="true" weight="0.2320917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990099" visible="true" weight="0.17270789" />
       <window_info id="Structure" order="1" sideWeight="0.5009901" side_tool="true" weight="0.22851002" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -387,7 +383,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32756326" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.264232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39946738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,6 +441,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/yk/algorithm/C201903/Two.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2075">
+          <caret line="159" column="10" selection-start-line="159" selection-start-column="10" selection-end-line="159" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5247#5255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/yk/algorithm/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -454,19 +461,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/yk/algorithm/C201903/input">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/yk/algorithm/C201903/Two.java">
+    <entry file="file://$PROJECT_DIR$/src/org/yk/algorithm/C201903/Three.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="160" column="40" selection-start-line="160" selection-start-column="40" selection-end-line="160" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5247#5255#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>

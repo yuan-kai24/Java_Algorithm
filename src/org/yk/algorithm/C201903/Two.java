@@ -1,5 +1,7 @@
 package org.yk.algorithm.C201903;
 
+import org.yk.algorithm.Main;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -9,7 +11,7 @@ public class Two {
     final static String[] result = {"Yes", "No"};
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
         List<String> str = new LinkedList<>();
         for (int i = 0; i < count; i++) {
@@ -22,7 +24,8 @@ public class Two {
 
         }
 //        System.out.println(result[returnResult("5/2x2x6")]);
-        scanner.close();
+        scanner.close();*/
+        Main();
     }
 
     public static int returnResult(String math_string) {
@@ -154,7 +157,8 @@ public class Two {
         return result;
     }
 
-    public void Main(){
+    // 满分版
+    public static void Main(){
         Scanner sc = new Scanner(System.in);
 
         //存储每一次输入的算术字符串
