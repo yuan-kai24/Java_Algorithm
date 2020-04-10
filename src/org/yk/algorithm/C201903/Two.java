@@ -1,9 +1,6 @@
 package org.yk.algorithm.C201903;
 
-import org.yk.algorithm.Main;
-
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
