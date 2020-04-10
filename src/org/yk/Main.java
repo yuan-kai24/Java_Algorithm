@@ -1,64 +1,53 @@
 package org.yk;
 
-import java.util.Random;
+import org.yk.algorithm.sort.MergerSort;
 
-class SuperClass{
-    public static int value = 123;
-    public static final int fv = 123;
-    static{
-        System.out.println("SuperClass.static initializer");
-    }
-}
+import java.util.LinkedList;
+import java.util.LinkedList;
 
-class SubClass extends SuperClass{
-    static{
-        System.out.println("SubClass.static initializer");
-    }
-}
+/**
+ * @program: algorithm
+ * @ClassName MergerSort
+ * @description:
+ * @author: YuanKai
+ * @create: 2020-04-10 21:17
+ * @Version 1.0
+ **/
+
 
 public class Main {
 
     public static void main(String [] args){
-//        SuperClass [] superClasses = new SubClass[10];
-//        StaticClass.sta.getIn();
-//        StaticClass.sta.print();
-//        StaticClass.getInstance().print();
-        printColor();
+//        LinkedList<Integer> list = new LinkedList<>();
+//        new Main().Num(0,0, list);
+        LinkedList<Integer> list = new LinkedList<>();
+        for (int i = 0;i < 49;i++){
+//            list.add(Math.random())
+            list.add((int) (Math.random()*200));
+        }
+        System.out.println("排序前：" + list);
+        System.out.println("排序后：" + new MergerSort().sort(list));
     }
-    public static void printColor() {
-        // 背景颜色代号(41-46)
-        // 前景色代号(31-36)
-        //前景色代号和背景色代号可选，就是或可以写，也可以不写
-        // 数字+m：1加粗；3斜体；4下划线
-        // 格式：System.out.println("\33[前景色代号;背景色代号;数字m");
-        Random backgroundRandom = new Random();
-        Random fontRandom = new Random();
-        for (int i = 1; i <= 50; i++) {
-            int font = fontRandom.nextInt(6) + 31;
-            int background = backgroundRandom.nextInt(6) + 41;
-            System.out.format("\033[0m前景色是%d,背景色是%d------\33[%d;%d;0m正在测试%n", font, background, font, background);
+
+    public void Num(int point, int count, LinkedList<Integer> list){
+        if(count == 10){
+            System.out.println(list);
+            return;
+        }
+        if (count > 10){
+            return;
+        }
+        for(int i : new int[]{1, 2, 5, 10}){
+            list.add(i);
+            Num(point+1, count+i, list);
+            list.remove(point);
         }
     }
-}
 
-class StaticClass{
-    private static StaticClass sta = new StaticClass();// 1   0
-    private static int c1;
-    private static int c2 = 0;
-    // private static StaticClass sta = new StaticClass();// 1   1
 
-    private StaticClass(){
-        c1++;
-        c2++;
+
+    public static void GBsort(int [] num){
+
     }
-
-    public static StaticClass getInstance(){
-        return sta;
-    }
-
-    public void print(){
-        System.out.println("c1:" + c1 + " === c2:" + c2);
-    }
-
 
 }

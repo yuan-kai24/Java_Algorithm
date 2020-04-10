@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f492de-3177-4942-86c4-dc6bdf27de2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/yk/algorithm/sort/MergerSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/yk/algorithm/C201903/Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/yk/algorithm/C201903/Two.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/yk/algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/yk/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/yk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/yk/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570588372998" />
@@ -66,7 +68,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -168,7 +170,7 @@
       <workItem from="1585726752939" duration="53000" />
       <workItem from="1585727274768" duration="51000" />
       <workItem from="1586504568574" duration="1392000" />
-      <workItem from="1586519416688" duration="569000" />
+      <workItem from="1586519416688" duration="8306000" />
     </task>
     <task id="LOCAL-00001" summary="yi">
       <created>1558793005936</created>
@@ -212,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564841606083</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="yi">
+      <created>1586520059643</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520059643</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -232,29 +241,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="yi" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1120" y="27" key="CommitChangelistDialog2" timestamp="1586520053740">
+      <screen x="-1440" y="0" width="1440" height="870" />
+    </state>
+    <state x="-1120" y="27" key="CommitChangelistDialog2/0.0.1920.1050/-1440.0.1440.870@-1440.0.1440.870" timestamp="1586520053740" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1584890630588">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1584890630588" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584890888287">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1586528535711">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1397" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1440.0.1440.870@-1440.0.1440.870" timestamp="1586522099247" />
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1586528535711" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1584890888287" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584890888287">
+    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1586528535710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1397" height="223" key="GridCell.Tab.0.center/0.0.1920.1050/-1440.0.1440.870@-1440.0.1440.870" timestamp="1586522099247" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1586528535710" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1584890888287" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584890888287">
+    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1586528535710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1397" height="223" key="GridCell.Tab.0.left/0.0.1920.1050/-1440.0.1440.870@-1440.0.1440.870" timestamp="1586522099247" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1586528535710" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1584890888287" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584890888287">
+    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1586528535710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1397" height="223" key="GridCell.Tab.0.right/0.0.1920.1050/-1440.0.1440.870@-1440.0.1440.870" timestamp="1586522099247" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1586528535710" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1584890888287" />
-    <state x="-1219" y="76" key="SettingsEditor" timestamp="1586519994711">
-      <screen x="-1440" y="0" width="1440" height="870" />
+    <state x="295" y="92" key="SettingsEditor" timestamp="1586527896150">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1219" y="76" key="SettingsEditor/0.0.1920.1050/-1440.0.1440.870@-1440.0.1440.870" timestamp="1586519994711" />
+    <state x="295" y="92" key="SettingsEditor/0.0.1920.1050/-1440.0.1440.870@0.0.1920.1050" timestamp="1586527896150" />
   </component>
 </project>
